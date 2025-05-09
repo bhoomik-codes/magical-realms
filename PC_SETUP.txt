@@ -1,0 +1,76 @@
+RPG GAME - PC SETUP GUIDE
+========================
+
+To run this game on your PC, you'll need to set up a few things:
+
+1. PREREQUISITES
+---------------
+- Python 3.10 or newer
+- PostgreSQL database
+- The necessary Python packages
+- Game files downloaded to your PC
+
+2. BASIC SETUP STEPS
+------------------
+- Install Python from python.org
+- Install PostgreSQL from postgresql.org
+- Create a database named "rpg_game"
+- Set up the connection environment
+- Run the game with our helper scripts
+
+GUI MODE AVAILABLE!
+------------------
+We now provide a GUI mode that properly displays all emojis and special characters!
+Use start_game_gui.bat (Windows) or start_game_gui.sh (Mac/Linux) to use it.
+See GUI_MODE_GUIDE.txt for more details.
+
+3. DATABASE CONNECTION
+-------------------
+You'll need these environment variables set:
+- PGUSER (usually "postgres")
+- PGPASSWORD (your database password)
+- PGHOST (usually "localhost")
+- PGPORT (usually "5432")
+- PGDATABASE (your database name, e.g. "rpg_game")
+- DATABASE_URL (full connection string)
+
+4. USING THE STARTUP SCRIPTS
+-------------------------
+We've provided two scripts to help you start the game:
+
+WINDOWS:
+- Double-click "start_game.bat" (text mode)
+- Double-click "start_game_gui.bat" (GUI mode - RECOMMENDED for Windows)
+- Follow the prompts to enter your database info
+- The game will start automatically
+
+MAC/LINUX:
+- Make the script executable: chmod +x start_game.sh
+- Run it: ./start_game.sh (text mode)
+- Or for GUI: chmod +x start_game_gui.sh && ./start_game_gui.sh
+- Follow the prompts to enter your database info
+- The game will start automatically
+
+5. MANUAL STARTUP
+---------------
+If you prefer to set things up manually:
+
+WINDOWS:
+- Open Command Prompt
+- Set environment variables (use "set VARIABLE=value")
+- Run "python rpg_game.py" or "python rpg_game_gui.py"
+
+MAC/LINUX:
+- Open Terminal
+- Set environment variables (use "export VARIABLE=value")
+- Run "python3 rpg_game.py" or "python3 rpg_game_gui.py"
+
+6. TROUBLESHOOTING
+----------------
+- Make sure PostgreSQL is running
+- Check your database connection details
+- Ensure Python can find the right modules
+- Check that all game files are present
+- For Windows: Use GUI mode if emojis don't display correctly
+
+Enjoy your adventure!

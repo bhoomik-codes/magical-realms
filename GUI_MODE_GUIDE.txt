@@ -1,0 +1,67 @@
+RPG GAME - GUI MODE GUIDE
+========================
+
+The GUI mode provides a graphical interface for the RPG game, ensuring proper display
+of all graphical elements including emojis, which may not render correctly in the
+standard Windows command prompt.
+
+USING THE GUI MODE
+-----------------
+1. Run the appropriate starter script:
+   - Windows: Double-click "start_game_gui.bat"
+   - Mac/Linux: Run "./start_game_gui.sh" (make executable first with "chmod +x start_game_gui.sh")
+
+2. The script will:
+   - Check for Python and necessary components
+   - Prompt you for database connection information
+   - Launch the game in a graphical window
+
+3. The GUI features:
+   - A text display area for all game output
+   - An input field for typing commands
+   - A submit button (you can also press Enter to submit)
+   - A status bar showing the current state of the game
+
+ADVANTAGES OF GUI MODE
+--------------------
+- Proper rendering of all special characters and emojis
+- More visually appealing interface
+- Scrollable history of your gameplay session
+- Works consistently across all operating systems
+
+REQUIREMENTS
+-----------
+- Python 3.10 or newer
+- Tkinter (usually included with Python installations)
+- PostgreSQL database (same as the regular game mode)
+
+TROUBLESHOOTING
+--------------
+1. "Tkinter not available" error:
+   - This means your Python installation doesn't include the Tkinter package
+   - For Windows: Reinstall Python and check "tcl/tk and IDLE" during installation
+   - For Mac: Use "brew install python-tk" or reinstall Python
+   - For Linux: Use your package manager to install python3-tk
+
+2. "'charmap' codec can't encode character" errors:
+   - This is a common Windows issue with character encoding
+   - The GUI mode should automatically handle this with its UTF-8 encoding settings
+   - If you still see these errors:
+     * Make sure you're using the updated start_game_gui.bat script
+     * Try running the command "chcp 65001" in your command prompt before starting
+     * Verify your Windows system has "Beta: Use Unicode UTF-8 for worldwide language support" 
+       enabled in Control Panel > Region > Administrative > Language for non-Unicode programs
+
+3. Display still looks wrong:
+   - Try adjusting your font settings in the GUI
+   - Ensure your system has fonts that support Unicode characters (like Segoe UI Emoji on Windows)
+   - For Windows, consider updating to a more recent version that has better Unicode support
+
+4. Other issues:
+   - The GUI mode is just a wrapper around the text-based game
+   - Any game-specific issues will still need to be resolved the same way
+
+ENJOY THE ENHANCED EXPERIENCE!
+----------------------------
+The GUI mode maintains all the gameplay of the original while ensuring
+you can see all the visual elements as intended.

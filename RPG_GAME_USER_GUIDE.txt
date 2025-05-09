@@ -1,0 +1,243 @@
+===============================================================================
+                      RPG GAME USER GUIDE
+===============================================================================
+
+Table of Contents
+----------------
+1. Introduction
+2. Getting Started
+3. Character Classes
+4. Game Controls
+5. Combat System
+6. Items and Equipment
+7. Monsters and Enemies
+8. Leveling and Progression
+9. Saving and Loading
+10. Tips and Strategies
+
+1. INTRODUCTION
+---------------
+
+Welcome to the enhanced RPG adventure! This text-based role-playing game allows 
+you to create a character, battle monsters, collect items, level up, and save 
+your progress. The game features multiple character classes, each with unique 
+abilities, an inventory system, and a variety of monsters to defeat.
+
+2. GETTING STARTED
+-----------------
+
+Launching the Game:
+
+- Windows Users:
+  * Double-click "start_game.bat" to run in console mode with white background
+    and black text for better readability
+  * Or double-click "start_game_gui.bat" for the GUI version (recommended)
+    that properly displays all emojis and special characters
+
+- Mac/Linux Users:
+  * Run "./start_game.sh" from the terminal (make sure it's executable)
+  * Or run "./start_game_gui.sh" for the GUI version
+
+When you start the game, you'll see the main title screen with options to create
+a new character or load an existing one. If this is your first time playing, 
+select "Create New Character" and follow the prompts to customize your hero.
+
+CHARACTER CREATION
+- Choose from three classes: Barbarian, Archer, or Mage
+- Enter a name for your character
+- Your character will be created with starting stats based on class
+
+MAIN MENU
+The main menu provides several options:
+1. Hunt Monsters: Search for monsters to battle and earn XP (you can now hunt continuously without returning to the main menu)
+2. Manage Inventory: View and use items, equip/unequip gear
+3. Visit Shop: Buy and sell items using gold earned from battles
+4. Character Status: View detailed information about your character
+5. Face Boss: Challenge a powerful boss monster for greater rewards
+6. Save/Load Game: Manage saved characters
+7. Quit Game: Exit the game
+
+3. CHARACTER CLASSES
+-------------------
+
+BARBARIAN 🪓
+- Highest HP and attack power
+- Lower defense and mana
+- Special: Rage Attack (high damage, high mana cost)
+- Evolution path focuses on strength and damage
+
+ARCHER 🏹
+- Balanced stats
+- More consistent damage (less randomness)
+- Special: Precision Shot (chance to ignore target's defense)
+- Evolution path focuses on critical hits and accuracy
+
+MAGE 🧙
+- Highest mana and spell damage
+- Lower HP and physical defense
+- Special: Fireball (high damage spell)
+- Unique Ability: Healing spell to restore HP
+- Evolution path focuses on spell power and mana efficiency
+
+CLASS EVOLUTION SYSTEM
+As you level up, your character class will evolve at specific level thresholds:
+- Tier 1 (Level 3): First evolution, new title and improved abilities
+- Tier 2 (Level 6): Second evolution with further enhancements
+- Tier 3 (Level 10): Advanced evolution with powerful abilities
+- Tier 4 (Level 15): Master evolution with exceptional skills
+- Tier 5 (Level 20): Legendary evolution with ultimate abilities
+- Tier 6 (Level 25): Final evolution, the peak of your class's potential
+
+4. GAME CONTROLS
+---------------
+
+The game is controlled through text inputs. When prompted, enter the corresponding
+number or letter for your desired action. Common inputs include:
+
+- Numbers (1-9): Select menu options
+- Yes/No (y/n): Answer yes/no questions
+- Enter: Continue to the next screen when prompted
+
+In the GUI mode, you can click the "Submit" button or press Enter to send your input.
+
+5. COMBAT SYSTEM
+---------------
+
+Combat is turn-based. Each turn, you'll have options to:
+
+BASIC ACTIONS
+1. Attack: Standard attack based on your attack stat
+2. Special Attack: Powerful ability that consumes mana
+3. Block: Reduce incoming damage on the next turn
+4. Dodge: Chance to completely avoid the next attack
+5. Use Item: Use a consumable item from your inventory
+6. Run: Attempt to flee from combat (not available for boss fights)
+
+DAMAGE CALCULATION
+- Base damage = Attacker's attack - Defender's defense
+- Random variance: ±10 points
+- Critical hits: 2x damage (chance based on luck and class)
+- Special abilities may ignore defense or have other effects
+
+STATUS EFFECTS
+Some abilities and items can cause status effects:
+- Bleeding: Take damage over time
+- Poisoned: Take damage over time, reduced healing
+- Burned: Take damage over time, reduced attack
+- Stunned: Miss a turn
+
+6. ITEMS AND EQUIPMENT
+---------------------
+
+ITEM TYPES
+- Consumables: One-time use items that provide immediate effects
+- Weapons: Increase attack power
+- Armor: Increase defense
+- Accessories: Provide various stat boosts
+
+ITEM QUALITY TIERS
+Items come in different quality tiers, with better stats for higher tiers:
+- Common: Basic stats
+- Uncommon: Better stats, may have small bonus effects
+- Rare: Excellent stats, usually with bonus effects
+- Epic: Superior stats with powerful bonus effects
+- Legendary: The best possible items with unique effects
+
+INVENTORY MANAGEMENT
+- You can access your inventory from the main menu
+- Limited inventory space (expandable as you progress)
+- Items can be equipped, used, or sold
+
+SHOP SYSTEM
+- Buy and sell items at the shop
+- Shop inventory changes periodically
+- Better items appear as you level up
+- Your luck stat influences the quality of items available
+
+7. MONSTERS AND ENEMIES
+---------------------
+
+MONSTER TYPES
+- Slimes: Basic enemies with low stats
+- Goblins: Fast attackers with higher damage
+- Skeletons: Undead enemies with damage resistance
+- Vampires: Enemies that steal life with their attacks
+- Dragons: Powerful boss monsters
+
+BOSS MONSTERS
+- Much stronger than regular monsters
+- Drop better loot and give more XP
+- Have unique special abilities
+- Cannot run from boss battles
+
+DIFFICULTY SCALING
+- Monster strength scales with your level
+- Higher-level areas contain stronger monsters
+- Boss monsters are significantly stronger than regular monsters
+
+8. LEVELING AND PROGRESSION
+--------------------------
+
+EXPERIENCE POINTS (XP)
+- Gain XP by defeating monsters
+- XP required for next level increases with each level
+- Boss monsters give significantly more XP
+
+LEVELING UP
+- Automatically increases all base stats
+- Gain one skill point to allocate (feature coming soon)
+- May unlock new abilities based on class and level
+
+GOLD
+- Earned from defeating monsters
+- Used to buy items at the shop
+- Higher-level monsters drop more gold
+
+9. SAVING AND LOADING
+--------------------
+
+SAVE SYSTEM
+- Your progress is automatically saved after key events
+- You can manually save from the main menu
+- Multiple save slots available for different characters
+
+LOADING SAVES
+- Load any of your saved characters from the title screen
+- Continue your adventure with all progress intact
+
+10. TIPS AND STRATEGIES
+---------------------
+
+GENERAL TIPS
+- Balance offense and defense based on your class strengths
+- Save mana for tough battles; basic attacks work well on weaker foes
+- Keep health potions for emergencies
+- Upgrade your equipment whenever possible
+- Hunt monsters to gain levels before attempting boss fights
+- The "Hunt Monsters" option now allows continuous hunting without returning to the menu
+
+CLASS-SPECIFIC STRATEGIES
+
+BARBARIAN
+- Focus on high attack power gear
+- Use Rage Attack to quickly defeat tough enemies
+- Don't neglect defense completely; you still need to survive
+
+ARCHER
+- Balance attack and defense
+- Precision Shot is great against high-defense enemies
+- Consistent damage makes planning easier
+
+MAGE
+- Maximize mana pool and regeneration
+- Save healing for critical moments
+- Use special attacks efficiently
+
+INVENTORY MANAGEMENT
+- Sell items you don't need for gold
+- Prioritize equipment that enhances your class strengths
+- Keep a balance of health and mana potions
+
+===============================================================================
+                  ENJOY YOUR ADVENTURE!
+===============================================================================
